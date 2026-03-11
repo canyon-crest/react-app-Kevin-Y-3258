@@ -9,7 +9,7 @@ function Card({name, description}){
         <div className='myCard'>
             <h2>{name}</h2>
             <p>Description: {description}</p>
-            <div class="button-container">
+            <div className="button-container">
                 <button onClick={() => setCount(count + 1)}>Add {name} to cart</button>
                 <button onClick={() => setCount(0)}>Reset</button>
             </div>
