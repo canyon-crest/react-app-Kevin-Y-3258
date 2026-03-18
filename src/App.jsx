@@ -1,8 +1,7 @@
 
-import { useState } from 'react'
+import { useState } from "react"
 import './App.css'
 import Nav from './Nav.jsx'
-import Card from './Card.jsx'
 import Home from './Home.jsx'
 import About from './About.jsx'
 import Contact from './Contact.jsx'
@@ -10,7 +9,6 @@ import Footer from './Footer.jsx'
 
 function App() {
   const [page, setPage] = useState("About");
-
   return (
     <>
       <Nav setPage={setPage} />
