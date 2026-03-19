@@ -5,6 +5,10 @@ ul {
   background-color: #f8f9fa;
   display: flex;
   border-bottom: 2px solid #ddd;
+  flex-wrap: nowrap;
+  width: 100%;
+  justify-content: center;
+  box-sizing: border-box;
 }
 
 ul li {
@@ -13,6 +17,8 @@ ul li {
   cursor: pointer;
   font-weight: 500;
   transition: all 0.2s;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 ul li:hover {
